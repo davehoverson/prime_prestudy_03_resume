@@ -1,0 +1,53 @@
+body {
+	background-image: url(light-grey-background1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'EB Garamond', serif;
+	width: 800px;
+	margin: 0px auto 0px;
+	}
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 5px auto;
+}
+h1 { 
+	text-align: center;
+	}
+header img {
+	float: right;
+	border: 5px solid #969696;
+}
+.border { 
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	}
+.list, .objective {
+	padding-top: 8px;
+}
+.list li:nth-child(odd) {
+  background: #D8E6E6;
+}
+a {	
+	color: #323232;
+	}
+a:hover {
+	color: #0645AD;
+	}
+footer {
+	background-color: #969696;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	}		
+.show {
+	height: 75px;
+	width: 600px;
+	margin: 50px auto;
+	background-color: red;
+	color: white;
+	font-size: 26px;
+	}
